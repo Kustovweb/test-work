@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Популярные товары</title>
+  </head>
+  <body>
+    <article class="popular-product">
+        <div class="popular-product-wrap">
+          <div class="popular-product__header-text">
+            <h2 class="popular-product__header-text__h2">Популярные товары</h2>
+            <a href="#" class="popular-product__header-text__link popular-product__header-text__link_border_dotted">Недавно купили</a>
+            <a href="#" class="popular-product__header-text__link popular-product__header-text__link_border_dotted">Вас может заинтересовать</a>
+          </div>
+          <div class="product-list product">
+            <!-- item1 -->
+            <div class="product__item product-img">
+              <div class="product-img__placeholder">
+                <svg class="product-img__like" width="20" height="19">
+                    <use xlink:href="img/sprite_icons.svg#like"></use>
+                </svg>
+                <svg class="product-img__compare" width="34" height="34">
+                  <use xlink:href="img/sprite_icons.svg#compare"></use>
+              </svg>
+              <ul class="product__image-pagination image-pagination">
+                <li class="image-pagination__item image-pagination__item--active"></li>
+                <li class="image-pagination__item"></li>
+                <li class="image-pagination__item"></li>
+                <li class="image-pagination__item"></li>
+                <li class="image-pagination__item"></li>
+              </ul>
+              </div>
+              <div class="product__info product-title">
+                <h3 class="product-title__h3">Тарелка керамическая ручной работы ⌀ 12</h3>
+              </div>
+              <div class="product-price">
+                <span class="product-price__current">600 ₽</span>
+                <span class="product-price__old">810 ₽</span>
+              </div>
+              <div class="product-wrap">
+                <div class="product__props product-amount">
+                  <button class="product-amount product-amount__btn" data-decrement="">-</button>
+                  <span class="product-amount product-amount__number">1</span>
+                  <button class="product-amount product-amount__btn" data-increment="">+</button>
+                </div>
+                <button class="product__btn">
+                  <svg class="product__btn-svg" width="21" height="18">
+                    <use xlink:href="img/sprite_icons.svg#cart"></use>
+                  </svg>
+                  В корзину</div>
+                </button>
+              </div>
+              <!-- item2  -->
+              <div class="product__item product-img">
+                <div class="product-img__placeholder">
+                  <svg class="product-img__like" width="20" height="19">
+                      <use xlink:href="img/sprite_icons.svg#like"></use>
+                  </svg>
+                  <svg class="product-img__compare" width="34" height="34">
+                    <use xlink:href="img/sprite_icons.svg#compare"></use>
+                </svg>
+                <ul class="product__image-pagination image-pagination">
+                  <li class="image-pagination__item image-pagination__item--active"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                </ul>
+                  <div class="product__switch-img image-switch">
+                      <div class="image-switch__item">
+                        <img src="img/img1.jpg" alt="СИМПЛГРЕЙ">
+                      </div>
+                  </div>
+                </div>
+                <div class="product__info product-title">
+                  <h3 class="product-title__h3">Кашпо для цветов керамическое СИМПЛГРЕЙ</h3>
+                </div>
+                <div class="product-price">
+                  <span class="product-price__current">450 ₽</span>
+                  <!-- <span class="product-price__old"></span> -->
+                </div>
+                <div class="product-wrap">
+                  <div class="product__props product-amount">
+                    <button class="product-amount product-amount__btn" data-decrement="">-</button>
+                    <span class="product-amount product-amount__number">1</span>
+                    <button class="product-amount product-amount__btn" data-increment="">+</button>
+                  </div>
+                  <button class="product__btn">
+                    <svg class="product__btn-svg" width="21" height="18">
+                      <use xlink:href="img/sprite_icons.svg#cart"></use>
+                    </svg>
+                    В корзину</div>
+                  </button>
+                </div>
+                <!-- item3  -->
+              <div class="product__item">
+                <div class="product-img__placeholder product-img" data-hit="">
+                  <svg class="product-img__like" width="20" height="19">
+                      <use xlink:href="img/sprite_icons.svg#like"></use>
+                  </svg>
+                  <svg class="product-img__compare" width="34" height="34">
+                    <use xlink:href="img/sprite_icons.svg#compare"></use>
+                </svg>
+                <svg class="product-img__sticker" width="50" height="50">
+                  <use xlink:href="img/sprite_sticker.svg#hit"></use>
+              </svg>
+
+                <ul class="product__image-pagination image-pagination">
+                  <li class="image-pagination__item image-pagination__item--active"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                </ul>
+                  <div class="product__switch-img image-switch">
+                      <div class="image-switch__item">
+                        <img src="img/img2.jpg" alt="СИМПЛГРЕЙ">
+                      </div>
+                  </div>
+                </div>
+                <div class="product__info product-title">
+                  <h3 class="product-title__h3">Умные часы SMARTWATCH XM 109 черный</h3>
+                </div>
+                <div class="product-price">
+                  <span class="product-price__current">450 ₽</span>
+                  <!-- <span class="product-price__old"></span> -->
+                </div>
+                <div class="product-wrap">
+                  <div class="product__props product-amount">
+                    <button class="product-amount product-amount__btn" data-decrement="">-</button>
+                    <span class="product-amount product-amount__number">1</span>
+                    <button class="product-amount product-amount__btn" data-increment="">+</button>
+                  </div>
+                  <button class="product__btn">
+                    <svg class="product__btn-svg" width="21" height="18">
+                      <use xlink:href="img/sprite_icons.svg#cart"></use>
+                    </svg>
+                    В корзину</div>
+                  </button>
+                </div>
+                  <!-- item4  -->
+              <div class="product__item product-img">
+                <div class="product-img__placeholder">
+                  <svg class="product-img__like" width="20" height="19">
+                      <use xlink:href="img/sprite_icons.svg#like"></use>
+                  </svg>
+                  <svg class="product-img__compare" width="34" height="34">
+                    <use xlink:href="img/sprite_icons.svg#compare"></use>
+                </svg>
+                <svg class="product-img__sticker" width="50" height="50">
+                  <use xlink:href="img/sprite_sticker.svg#new"></use>
+              </svg>
+                <ul class="product__image-pagination image-pagination">
+                  <li class="image-pagination__item image-pagination__item--active"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                  <li class="image-pagination__item"></li>
+                </ul>
+                  <div class="product__switch-img image-switch">
+                      <div class="image-switch__item">
+                        <img src="img/img3.jpg" alt="СИМПЛГРЕЙ">
+                      </div>
+                  </div>
+                </div>
+                <div class="product__info product-title">
+                  <h3 class="product-title__h3">Золотое кольцо МАЛИКА с аметистом и фианитами</h3>
+                </div>
+                <div class="product-price">
+                  <span class="product-price__current">15 700 ₽</span>
+                  <!-- <span class="product-price__old"></span> -->
+                </div>
+                <div class="product-wrap">
+                  <div class="product__props product-amount">
+                    <button class="product-amount product-amount__btn" data-decrement="">-</button>
+                    <span class="product-amount product-amount__number">1</span>
+                    <button class="product-amount product-amount__btn" data-increment="">+</button>
+                  </div>
+                  <button class="product__btn">
+                    <svg class="product__btn-svg" width="21" height="18">
+                      <use xlink:href="img/sprite_icons.svg#cart"></use>
+                    </svg>
+                    В корзину</div>
+                  </button>
+                </div>
+          </div>
+        </div>
+        <div class="arrow-left"></div>
+        <div class="arrow-right"></div>
+    </article>
+  </body>
+</html>
